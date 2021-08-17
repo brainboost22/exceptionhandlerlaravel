@@ -1,0 +1,8 @@
+public function report(Exception $exception)
+{
+    if ($exception instanceof CustomException) {
+        //
+    }
+
+    return parent::report($exception);
+}
